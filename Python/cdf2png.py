@@ -15,7 +15,8 @@ usevar = sys.argv[1]
 yyyy = sys.argv[2]
 
 
-
+#Reading the NetCDF file
 root_grp = Dataset('test.nc')
 temp = root_grp.variables['temp']
+
 
